@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap'); 
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins' ,sans-serif;
+}
+.header
+{
+    min-height: 100vh;
+    width:100;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/ameca4.png);
+    background-position:center ;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+
+}
+.nav-links{
+    flex:1;
+    text-align: center;  
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#8f8f8f ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #f0e9e9;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #8f8f8f ;
+    background: #8f8f8f;
+    transition: 1s;
+}
+.restaurant{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color:#eeeded;
+    
+}
+h1{
+    font-size: 36px ;
+    font-weight: 600;
+    
+}
+p{
+    margin-top: 3%;
+    color:#3f3f3f;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.center {
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+.restaurant img{
+    width: auto;
+    height: 500px;
+    border:2px solid #fff;
+   
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+/* End*/
+.end{
+	min-height: 0vh;
+	width: 100%;
+	background-color: rgb(34, 34, 34);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+    text-align: center;
+}
+
+.end p
+{
+	color: white;
+	padding-top: 30px;
+}
+
+.end h3
+{
+	text-align: center;
+	padding-top: 90px;
+	color: white;
+}
